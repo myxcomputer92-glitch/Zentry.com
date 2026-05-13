@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+    .container{
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 999;
+    color: rgb(255, 0, 0);
+}
+.navbar{
+    text-transform: uppercase;
+    padding: 15px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain-logo-btn{
+    display: flex;
+    gap: 15px;
+    margin-left: 2%;
+}
+
+.logo{
+    margin-top: 5px;
+    width: 45px;
+    height: 6vh;
+}
+
+
+
+.menu-img{
+    display: none;
+}
+
+
+
+@media (max-width:480px) {
+
+.btn-1{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 46px;
+    margin-top: 15px;
+    width: 90px;
+    height: 3.6vh;
+    font-size: x-small;
+    font-weight: medium;
+}
+.menu-img{
+    margin-top: 7px;
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+}
+
+.contain-li{
+    list-style-type: none;
+    display: none;
+    margin-right: 5%;
+    font-size:small;
+}
+
+.contain-li.active{
+    background: conic-gradient(palegreen,transparent,palegreen);
+    border-radius: 20px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    z-index: 1000;
+}
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+.logo{
+    width: 55px;
+    height: 7vh;
+}
+.btn-1{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 46px;
+    margin-top: 10px;
+    width: 140px;
+    height: 5.6vh;
+    font-size: small;
+    font-weight: medium;
+}
+.menu-img{
+    margin-top: 7px;
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+}
+
+.contain-li{
+    list-style-type: none;
+    display: none;
+    margin-right: 5%;
+    font-size:small;
+}
+
+.contain-li.active{
+    background: conic-gradient(palegreen,transparent,palegreen);
+    border-radius: 20px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 200px;
+    height: 260px;
+    z-index: 1000;
+}
+
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+.logo{
+    width: 55px;
+    height: 7vh;
+}
+.btn-1{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 46px;
+    margin-top: 10px;
+    width: 140px;
+    height: 5.6vh;
+    font-size: small;
+    font-weight: medium;
+}
+
+.contain-li{
+    list-style-type: none;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 5%;
+    font-size:small;
+}
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+
+.logo{
+    width: 55px;
+    height: 7vh;
+}
+.btn-1{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 46px;
+    margin-top: 10px;
+    width: 140px;
+    height: 5.6vh;
+    font-size: small;
+    font-weight: medium;
+}
+
+.contain-li{
+    list-style-type: none;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 5%;
+    font-size:medium ;
+}
+}
+
+@media (min-width:1280px) {
+    
+.logo{
+    width: 55px;
+    height: 7vh;
+}
+.btn-1{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 46px;
+    margin-top: 10px;
+    width: 140px;
+    height: 5.6vh;
+    font-size: small;
+    font-weight: medium;
+}
+
+.contain-li{
+    list-style-type: none;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 5%;
+    font-size:medium ;
+}
+/* .contain-li li{
+    position: relative;
+    display: inline-block;
+}
+
+.contain-li li::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    width: 0%;
+    background-color: blue;
+    height: 2px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.contain-li li:hover::after{
+    width: 100%;
+} */
+
+}
