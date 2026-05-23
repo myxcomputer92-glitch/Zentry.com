@@ -1,8 +1,28 @@
 
+.h1-1-2{
+    font-family: 'Zentry',sans-serif;
+}
+.h1-2-2{
+    font-family: 'Zentry',sans-serif;
+    font-weight: bolder;
+}
+
+.p-1-2{
+    /* font-size: 0.7cm; */
+    font-family: 'Rober Medium',sans-serif;
+
+}
+.p-2-2{
+    /* font-size: 0.7cm; */
+    font-family: 'General',sans-serif;
+
+}
+
+
 @media (max-width:480px) {
       .cont-2{
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     height: auto;
     position: relative;
     z-index: 50;
@@ -17,7 +37,7 @@
 
 .video-wrapper{
     width: 100%;
-    height: 680px;
+    height: 620px;
     background-color: rgb(0, 0, 0);
     position: relative;
     /* z-index: -2; */
@@ -66,8 +86,8 @@
     font-size: small;
     background-color: yellow;
     border-radius: 25px;
-    width: 100px;
-    height: 4.5vh;
+    width: 120px;
+    height: 5.5vh;
     margin-top: 1%;
     margin-left: 4%;
 }
@@ -76,7 +96,8 @@
     font-size: 1.42cm;
     position: absolute;
     right: 0%;
-    top: 70%;
+    /* top: 70%; */
+    bottom: 7%;
     /* transform: translate(29.1vw,260px); */
     text-transform: uppercase;
 }
@@ -173,7 +194,9 @@
 }
 
 .cont-2 p{
-    font-size: larger;
+    /* background-color: red; */
+    font-weight: lighter;
+    font-size: 0.4cm;
     text-transform: capitalize;
 }
 
@@ -210,7 +233,7 @@
 .h1-1-2{
     padding-top: 2%;
     padding-left: 2%;
-    font-size: 2cm;
+    font-size: 4cm;
     text-transform: uppercase;
 }
 .p-1-2{
@@ -218,23 +241,27 @@
     padding-left: 3%;
 }
 .p-2-2{
+    
+    /* font-family: 'General',sans-serif; */
     padding-left: 3%;
     padding-top: 0.5%;
 }
 
 .btn-1-2{
-    font-size: small;
+    font-family: 'General',sans-serif;
+    font-size: x-small;
     background-color: yellow;
     border-radius: 25px;
-    width: 130px;
-    height: 6vh;
+    width: 150px;
+    height: 7.6vh;
     margin-top: 1%;
     margin-left: 4%;
+    text-transform: uppercase;
 }
 
 .h1-2-2{
-    font-size: 2cm;
-    transform: translate(61%,160px);
+    font-size: 4cm;
+    transform: translate(51%,160px);
     text-transform: uppercase;
 }
 
@@ -328,7 +355,7 @@
 }
 
 .cont-2 p{
-    font-size: larger;
+    font-size: medium;
     text-transform: capitalize;
 }
 
@@ -365,7 +392,7 @@
 .h1-1-2{
     padding-top: 2%;
     padding-left: 2%;
-    font-size: 3cm;
+    font-size: 5cm;
     text-transform: uppercase;
 }
 .p-1-2{
@@ -378,7 +405,12 @@
 }
 
 .btn-1-2{
+    font-family: 'General',sans-serif;
+    font-size: small;
+    text-transform: uppercase;
     background-color: yellow;
+    color: black;
+    cursor: pointer;
     border-radius: 25px;
     width: 150px;
     height: 6vh;
@@ -387,8 +419,8 @@
 }
 
 .h1-2-2{
-    font-size: 3cm;
-    transform: translate(61%,160px);
+    font-size: 5cm;
+    transform: translate(66%,80px);
     text-transform: uppercase;
 }
 

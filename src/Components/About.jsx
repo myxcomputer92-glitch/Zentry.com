@@ -1,8 +1,51 @@
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 import React from 'react'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 const About = () => {
-  return (
-    <>
+
+  gsap.registerPlugin(ScrollTrigger)
+
+  useGSAP(()=>{
+    const mm=gsap.matchMedia()
+
+    const tl=gsap.timeline({scrollTrigger:{
+      // markers:true,
+      trigger:'.cont-3',
+      start:'6% 10%',
+      end:'60% top',
+      // scrub:true
+    }})
+    const tl2=gsap.timeline({scrollTrigger:{
+      // markers:true,
+      trigger:'.cont-3',
+      start:'14% 10%',
+      end:'30% top',
+      scrub:true
+    }})
+
+mm.add('(min-width:1280px)',()=>{
+
+  
+  tl.to('.para-1-3,.h1-1-3,.h1-2-3,.h2-1-3,.h3-1-3,.h3-2-3',{
+    duration:1,
+    opacity:0,
+  })
+  
+  tl2.to('.img-1-3',{
+    width: '1500px',
+    height: '850px'
+  })
+  
+})
+
+
+  
+})
+
+return (
+  <>
     <div className='cont-3'>
         <p className='para-1-3'>Welcome To Zentry</p>
         <h1 className='h1-1-3'>Discover The world's</h1>

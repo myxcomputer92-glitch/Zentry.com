@@ -6,7 +6,7 @@ const Promotion = () => {
     <div className='cont-6'>
     <div className="contain-all box">
         <p className='para-1-6'>Join Zentry</p>
-        <h1 className='h1-1-6'>Let's Build the  <br /> New era of <br /> gaming together</h1>
+        <h1 className='h1-1-6'>Let's Build the  <br /> New era of <br /> gaming together.</h1>
         <button className='btn-1-6'>contact us</button>
 
 <img className='img-1-6' src="/img/swordman.webp" alt="" />

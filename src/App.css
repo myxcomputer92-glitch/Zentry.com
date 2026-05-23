@@ -8,6 +8,33 @@ html,body{
     min-height: 100vh;
 }
 
+@font-face {
+  font-family: 'CircularWeb';
+  src: url('/fonts/circularweb-book.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General';
+  src: url('/fonts/general.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Rober Medium';
+  src: url('/fonts/rober-medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Rober Regular';
+  src: url('/fonts/rober-regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Zentry';
+  src: url('/fonts/zentry-regular.woff2') format('woff2');
+}
+
 
     .container{
     /* background-color: red; */
@@ -18,6 +45,7 @@ html,body{
     color: rgb(255, 0, 0);
 }
 .navbar{
+    opacity: 0;
     text-transform: uppercase;
     padding: 15px;
     /* background-color: blue; */
@@ -43,6 +71,13 @@ html,body{
     display: none;
 }
 
+.btn-1{
+    color: black;
+}
+
+.contain-li li{
+    opacity: 0;
+}
 
 
 @media (max-width:480px) {
@@ -52,8 +87,8 @@ html,body{
     background-color: whitesmoke;
     border-radius: 46px;
     margin-top: 15px;
-    width: 90px;
-    height: 3.6vh;
+    width: 110px;
+    height: 4.6vh;
     font-size: x-small;
     font-weight: medium;
 }

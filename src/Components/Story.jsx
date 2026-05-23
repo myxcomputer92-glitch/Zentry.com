@@ -11,11 +11,14 @@ const Story = () => {
       <div className="contain-entrance-img">
         <img className='img-1-5' src="/img/entrance.webp" alt="" />
       </div>
+      <div className="contain-para-btn-1-5">
+
         <p className='para-2-5'>Where relams converge,lies Zentry and the
             boundries pillar.Discover its secrets and shape your
             fate amidst infinite opportunities.
         </p>
             <button className='btn-1-5'>Discover Prologue</button>
+      </div>
     </div>
     </>
   )

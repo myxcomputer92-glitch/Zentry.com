@@ -1,6 +1,27 @@
-import React from 'react'
-
+import React,{useEffect,useRef} from 'react'
+import VanillaTilt from 'vanilla-tilt'
+// import VanillaTilt from 'vanilla-tilt'
 const Product = () => {
+
+// const containRef=useRef()
+
+
+
+useEffect(() => {
+    
+    const cards=document.querySelectorAll('.contain-video-text, .contain-video-text-2, .contain-video-text-3, .contain-video-text-4, .contain-video-text-6')
+    
+        VanillaTilt.init(cards,{
+            max:4,
+            speed:20,
+            // scale:1.05,
+            glare:true,
+            'max-glare':0.2,
+        })
+        
+    }, [])
+
+
   return (
     <>
     <div className='cont-4'>

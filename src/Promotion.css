@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+button{
+    cursor: pointer;
+}
+
+.para-1-6{
+    color: whitesmoke;
+    font-family: 'Rober Regular',sans-serif;
+}
+
+.h1-1-6{
+    font-family: 'Zentry',sans-serif;
+}
+.btn-1-6{
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Rober Medium',sans-serif;
+}
 
 @media (max-width:480px) {
         .cont-6{
@@ -353,22 +371,23 @@
     border-radius: 10px;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    width: 1250px;
+    width: 1450px;
     height: 620px;
 }
 
 .para-1-6{
     padding-top: 6%;
+    font-size: small;
 }
 .h1-1-6{
     text-transform: uppercase;
     margin-top: 2%;
-    width: 64%;
+    /* width: 64%; */
     font-size: 2cm;
     z-index: 60;
     color: rgb(255, 255, 255);
     position: relative;
-    transform: translateX(192px);
+    /* transform: translateX(192px); */
     /* background-color: red; */
 }
 
