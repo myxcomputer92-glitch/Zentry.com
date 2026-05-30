@@ -6,26 +6,26 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 const About = () => {
 
   gsap.registerPlugin(ScrollTrigger)
-
   useGSAP(()=>{
     const mm=gsap.matchMedia()
 
     const tl=gsap.timeline({scrollTrigger:{
       // markers:true,
       trigger:'.cont-3',
-      start:'6% 10%',
+      start:'14% 10%',
       end:'60% top',
+      // toggleActions:'play repeat restart repeat'
       // scrub:true
     }})
     const tl2=gsap.timeline({scrollTrigger:{
       // markers:true,
       trigger:'.cont-3',
-      start:'14% 10%',
+      start:'15% 10%',
       end:'30% top',
       scrub:true
     }})
 
-mm.add('(min-width:1280px)',()=>{
+mm.add('(min-width:1281px)',()=>{
 
   
   tl.to('.para-1-3,.h1-1-3,.h1-2-3,.h2-1-3,.h3-1-3,.h3-2-3',{
@@ -34,12 +34,86 @@ mm.add('(min-width:1280px)',()=>{
   })
   
   tl2.to('.img-1-3',{
-    width: '1500px',
-    height: '850px'
+    width: '1300px',
+    height: '830px'
+    // width:'100%',
+    // height:'100%'
+
   })
   
 })
 
+mm.add('(min-width:1025px) and (max-width:1280px)',()=>{
+
+  
+  tl.to('.para-1-3,.h1-1-3,.h1-2-3,.h2-1-3,.h3-1-3,.h3-2-3',{
+    duration:1,
+    opacity:0,
+  })
+  
+  tl2.to('.img-1-3',{
+    width: '1010px',
+    height: '630px'
+    // width:'100%',
+    // height:'100%'
+
+  })
+  
+})
+
+
+mm.add('(min-width:769px) and (max-width:1024px)',()=>{
+
+  
+  tl.to('.para-1-3,.h1-1-3,.h1-2-3,.h2-1-3,.h3-1-3,.h3-2-3',{
+    duration:1,
+    opacity:0,
+  })
+  
+  tl2.to('.img-1-3',{
+    // width: '1450px',
+    // height: '830px'
+    width:'100%',
+    height:'100%'
+
+  })
+  
+})
+
+
+mm.add('(min-width:481px) and (max-width:768px)',()=>{
+
+  
+  tl.to('.para-1-3,.h1-1-3,.h1-2-3,.h2-1-3,.h3-1-3,.h3-2-3',{
+    duration:1,
+    opacity:0,
+  })
+  
+  tl2.to('.img-1-3',{
+    // width: '1450px',
+    // height: '830px'
+    width:'100%',
+    height:'100%'
+
+  })
+  
+})
+
+mm.add('(max-width:480px)',()=>{
+  tl.to('.para-1-3,.h1-1-3,.h1-2-3,.h2-1-3,.h3-1-3,.h3-2-3',{
+    duration:1,
+    opacity:0,
+  })
+  
+  tl2.to('.img-1-3',{
+    // width: '1450px',
+    // height: '830px'
+    width:'100%',
+    height:'100vh'
+
+  })
+  
+})
 
   
 })

@@ -102,10 +102,7 @@ useEffect(() => {
 
 <div className="contain-video-text-5">
 
-        <h1>More</h1>
-        <h1>Coming</h1>
-        <h1>Soon.</h1>
-
+        <h1>More <br /> Coming <br /> Soon</h1>
         <button>Coming Soon</button>
 
 </div>

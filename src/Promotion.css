@@ -42,8 +42,8 @@ button{
     border-radius: 10px;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    width: 320px;
-    height: 440px;
+    width: 97%;
+    height: 340px;
 }
 
 .para-1-6{
@@ -51,7 +51,7 @@ button{
 }
 .h1-1-6{
     text-transform: uppercase;
-    margin-top: 2%;
+    margin-top: 12%;
     /* width: 64%; */
     /* font-size: 1cm; */
     font-weight: lighter;
@@ -75,18 +75,19 @@ button{
 }
 
 .img-1-6{
-    width: 100px;
-    height: 150px;
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(12rad) rotateZ(12rad);
+    width: 80px;
+    height: 100px;
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 10%;
     right: 10%;
 }
 .img-2-6{
     transform:rotateX(770deg);
     /* transform:skew(1deg,20deg); */
-    width: 140px;
-    height: 150px;
+    width: 100px;
+    height: 120px;
     position: absolute;
     top: 10%;
     left: 2%;
@@ -96,13 +97,16 @@ button{
 }
 .img-3-6{
     margin-top: 20%;
-    margin-left: -45vw;
-    width: 150px;
-    height: 100px;
+    /* margin-left: -45vw; */
+    left: -5%;
+    bottom: 10%;
+    width: 130px;
+    height: 96px;
     object-fit: cover;
     position: absolute;
     z-index: 1;
     border-radius: 4px;
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(4rad) rotateZ(12rad);
      
 }
 }
@@ -124,10 +128,9 @@ button{
     /* top: 10%; */
     /* margin-left: 7%; */
     border-radius: 10px;
-    text-align: center;
     background-color: rgb(0, 0, 0);
-    width: 460px;
-    height: 440px;
+    width: 90%;
+    height: 470px;
 }
 
 .para-1-6{
@@ -135,9 +138,9 @@ button{
 }
 .h1-1-6{
     text-transform: uppercase;
-    margin-top: 2%;
+    margin-top: 11%;
     /* width: 64%; */
-    font-size: 1cm;
+    font-size: 1.3cm;
     font-weight: lighter;
     text-align: center;
     z-index: 60;
@@ -159,6 +162,7 @@ button{
 }
 
 .img-1-6{
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(12rad) rotateZ(12rad);
     width: 100px;
     height: 150px;
     position: absolute;
@@ -185,8 +189,11 @@ button{
     height: 100px;
     object-fit: cover;
     position: absolute;
+    bottom: 5%;
     z-index: 1;
     border-radius: 4px;
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(4rad) rotateZ(12rad);
+    
      
 }
 }
@@ -210,18 +217,19 @@ button{
     border-radius: 10px;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    width: 760px;
+    width: 96%;
     height: 440px;
 }
 
 .para-1-6{
     padding-top: 6%;
+    font-size: small;
 }
 .h1-1-6{
     text-transform: uppercase;
     margin-top: 2%;
     /* width: 64%; */
-    font-size: 1.4cm;
+    font-size: 1.6cm;
     font-weight: lighter;
     text-align: center;
     z-index: 60;
@@ -243,19 +251,20 @@ button{
 }
 
 .img-1-6{
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(12rad) rotateZ(12rad);
     width: 100px;
     height: 150px;
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 3%;
     right: 10%;
 }
 .img-2-6{
-    transform:rotateX(770deg);
+    /* transform:rotateX(770deg); */
     /* transform:skew(1deg,20deg); */
     width: 140px;
-    height: 150px;
-    position: absolute;
+    height: 100px;
+     position: absolute;
     top: 10%;
     left: 2%;
     z-index: 1;
@@ -263,9 +272,12 @@ button{
 
 }
 .img-3-6{
-    width: 50px;
-    height: 150px;
-    position: absolute;
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(4rad) rotateZ(12rad);
+    width: 150px;
+    height: 100px;
+   position: absolute;
+    left: 15%;
+    bottom: 10%;
     z-index: 1;
      
 }
@@ -296,12 +308,13 @@ button{
 
 .para-1-6{
     padding-top: 6%;
+    font-size: small;
 }
 .h1-1-6{
     text-transform: uppercase;
     margin-top: 2%;
     /* width: 64%; */
-    font-size: 1.4cm;
+    font-size: 1.8cm;
     font-weight: lighter;
     text-align: center;
     z-index: 60;
@@ -321,18 +334,20 @@ button{
 }
 
 .img-1-6{
+    /* transform: translate3d(0px, 0px, 0px) rotateX(0rad) rotateY(0rad) rotateZ(0rad) */
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(12rad) rotateZ(12rad);
     width: 300px;
-    height: 350px;
+    height: 320px;
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 3%;
     right: 10%;
 }
 .img-2-6{
-    transform:rotateX(770deg);
+    /* transform:rotateX(770deg); */
     /* transform:skew(1deg,20deg); */
-    width: 140px;
-    height: 150px;
+    width: 150px;
+    height: 120px;
     position: absolute;
     top: 10%;
     left: 2%;
@@ -341,12 +356,16 @@ button{
 
 }
 .img-3-6{
-    width: 50px;
-    height: 150px;
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(4rad) rotateZ(12rad);
+    width: 240px;
+    height: 170px;
     position: absolute;
+    left: 15%;
+    bottom: 10%;
     z-index: 1;
      
 }
+
 }
 
 
@@ -371,7 +390,7 @@ button{
     border-radius: 10px;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    width: 1450px;
+    width: 1250px;
     height: 620px;
 }
 
@@ -396,20 +415,22 @@ button{
     text-transform: uppercase;
     width: 150px;
     height: 7vh;
-    border-radius: 25px;
+    border-radius: 55px;
     margin-top: 2%;
 }
 
 .img-1-6{
+    /* transform: translate3d(0px, 0px, 0px) rotateX(0rad) rotateY(0rad) rotateZ(0rad) */
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(12rad) rotateZ(12rad);
     width: 300px;
-    height: 350px;
+    height: 420px;
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 3%;
     right: 10%;
 }
 .img-2-6{
-    transform:rotateX(770deg);
+    /* transform:rotateX(770deg); */
     /* transform:skew(1deg,20deg); */
     width: 140px;
     height: 150px;
@@ -421,9 +442,12 @@ button{
 
 }
 .img-3-6{
-    width: 50px;
-    height: 150px;
+    transform:translate3d(0px,0px,0px) rotateX(12rad) rotateY(4rad) rotateZ(12rad);
+    width: 300px;
+    height: 200px;
     position: absolute;
+    left: 15%;
+    bottom: 10%;
     z-index: 1;
      
 }
